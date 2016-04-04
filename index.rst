@@ -25,12 +25,8 @@ Konfiguration
    configuration/interfaces
    configuration/policyrouting
    configuration/daemons/ddi
-   configuration/daemons/fastd
    configuration/daemons/alfred
-   configuration/daemons/apache
-   configuration/daemons/icvpn
    configuration/internetexit
-   configuration/cleanup
 
 Betrieb
 -------
@@ -38,8 +34,6 @@ Betrieb
 .. toctree::
    :maxdepth: 2
 
-   operations/tests
-   operations/workflows
    operations/scripts
 
 Mitwirken
@@ -47,4 +41,4 @@ Mitwirken
 
 Du hast eine Stelle entdeckt, die Schreibfehler enthält, was unsauber oder falsch erklärt, nicht existiert aber sollte, oder veraltet ist?
 
-Gerne nehmen wir sinnvolle Vorschläge und Ergänzungen mit auf, über den `Issue-Tracker <http://github.com/freifunk-mwu/technik-meta/issues>`_ (mit dem `Label 'Doku' <https://github.com/freifunk-mwu/technik-meta/labels/Doku>`_) oder am besten gleich per Pull Request.
+Gerne nehmen wir sinnvolle Vorschläge und Ergänzungen mit auf, über den `Issue-Tracker <hhttps://github.com/Freifunk-Troisdorf/l2tp-gateway-doku/issues>`_ (mit dem `Label 'Doku' <https://github.com/Freifunk-Troisdorf/l2tp-gateway-doku/labels/Doku>`_) oder am besten gleich per Pull Request.
