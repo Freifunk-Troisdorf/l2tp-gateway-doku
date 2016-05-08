@@ -37,6 +37,34 @@ Netz                (bis)              Verwendung        verteilt durch  status
 ``10.188.255.0/24`` ``10.188.255.255`` Gateway IPs       fix             Geblockt
 =================== ================== ================= =============== ===========
 
+NEU:
+
+=================== ================== ================= =============== ===========
+Netz                (bis)              Verwendung        verteilt durch  status
+=================== ================== ================= =============== ===========
+``10.188.0.0/20``   ``10.188.15.255``  Freie Verwenung   fix             in Betrieb
+``10.188.16.0/20``  ``10.188.31.255``  Static IP Leases  Github/DHCP     Geblockt
+``10.188.32.0/20``  ``10.188.47.255``  Client DHCP-Range troisdorf1      ex tdf5
+``10.188.48.0/20``  ``10.188.63.255``  Client DHCP-Range troisodrf2      ex tdf6
+``10.188.64.0/20``  ``10.188.79.255``  Client DHCP-Range troisdorf3      frei
+``10.188.80.0/20``  ``10.188.95.255``  Client DHCP-Range troisdorf4      frei
+``10.188.96.0/20``  ``10.188.111.255`` Client DHCP-Range frei            frei
+``10.188.112.0/20`` ``10.188.127.255`` Client DHCP-Range frei            frei
+=================== ================== ================= =============== ===========
+
+=================== ================== ================= =============== ===========
+Netz                (bis)              Verwendung        verteilt durch  status
+=================== ================== ================= =============== ===========
+``10.188.128.0/20`` ``10.188.143.255`` Freie Verwenung   fix             in Betrieb
+``10.188.144.0/20`` ``10.188.159.255`` Static IP Leases  Github/DHCP     Geblockt
+``10.188.160.0/20`` ``10.188.175.255`` Client DHCP-Range troisdorf5      frei
+``10.188.176.0/20`` ``10.188.191.255`` Client DHCP-Range troisodrf6      frei
+``10.188.192.0/20`` ``10.188.207.255`` Client DHCP-Range troisdorf7      frei
+``10.188.208.0/20`` ``10.188.223.255`` Client DHCP-Range troisdorf8      frei
+``10.188.224.0/20`` ``10.188.239.255`` Client DHCP-Range frei            frei
+``10.188.240.0/20`` ``10.188.255.255`` Client DHCP-Range frei            frei
+=================== ================== ================= =============== ===========
+
 IPv6
 ----
 
