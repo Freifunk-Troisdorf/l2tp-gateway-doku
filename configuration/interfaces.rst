@@ -7,13 +7,6 @@ Netzwerk Interfaces
 
 Hier richten wir hauptsachlich die GRE Tunnel zum FFRL ein.
 
-.. seealso::
-    :ref:`dhcp`
-    :ref:`routing_tables`
-    :ref:`policyrouting`
-    :ref:`internetexit`
-    :ref:`gre`
-
     # The loopback network interface
     auto lo
     iface lo inet loopback
