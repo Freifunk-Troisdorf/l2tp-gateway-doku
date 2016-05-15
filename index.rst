@@ -22,7 +22,7 @@ Konfiguration
    :maxdepth: 2
 
    configuration/basics
-   configuration/interfaces
+   configuration/supernodes
    configuration/policyrouting
    configuration/daemons/ddi
    configuration/daemons/alfred
