@@ -25,6 +25,7 @@ Unser großes ``10.188.0.0/16`` (mit 65536 Adressen) teilen wir uns ein wenig ei
 Wir teilen das /16 in 8 /19 Netze ein.
 
 Sub-Domäne 1 - Troisdorf
+------------------------
 
 IPv4: ``10.188.0.0/19``
 
@@ -40,6 +41,8 @@ Netz                (bis)              Verwendung        verteilt durch  status
 IPv6: ``2a03:2260:121:0001::/64`` wird per Radvd announced
 
 Sub-Domäne 2 - Troisdorf City
+-----------------------------
+
 IPv4: ``10.188.32.0/19``
 
 =================== ================== ================= =============== ===========
@@ -54,6 +57,8 @@ Netz                (bis)              Verwendung        verteilt durch  status
 IPv6: ``2a03:2260:121:0002::/64`` wird per Radvd announced
 
 Sub-Domäne 3 - Flüchtlinge
+--------------------------
+
 IPv4: ``10.188.64.0/19``
 
 =================== ================== ================= =============== ===========
@@ -68,6 +73,8 @@ Netz                (bis)              Verwendung        verteilt durch  status
 IPv6: ``2a03:2260:121:0003::/64`` wird per Radvd announced
 
 Subdomäne 4 - Reserve
+---------------------
+
 IPv4: ``10.188.96.0/19
 
 =================== ================== ================= =============== ===========
