@@ -12,7 +12,7 @@ IPv4
 
 Wir haben für unserer Freifunk folgende Netze zugewiesen bekommen:
 
-* Troisdorf - ``10.188.0.0/16`` = **188**
+* Troisdorf - ``10.188.0.0/16``
 
 Datenpakete aus diesem Adressbereich werden innerhalb des Freifunks vermittelt, im großen weiten Internet aber nicht geroutet (Hintergrundinformationen dazu `gibt es hier`_).
 
@@ -21,23 +21,6 @@ Datenpakete aus diesem Adressbereich werden innerhalb des Freifunks vermittelt, 
 Unser großes ``10.188.0.0/16`` (mit 65536 Adressen) teilen wir uns ein wenig ein:
 
 ``10.188.0.0/16`` wird nicht komplett genutzt, um in Zukunft noch was auf Halde zu haben. Wachsen ist immer einfacher als schrumpfen.
-
-=================== ================== ================= =============== ===========
-Netz                (bis)              Verwendung        verteilt durch  status
-=================== ================== ================= =============== ===========
-``10.188.1.0/24``   ``10.188.1.255``   Services          fix             in Betrieb
-``10.188.2.0/24``   ``10.188.2.255``   Static IP Leases  Github/DHCP     Geblockt
-``10.188.100.1``    ``10.188.103.255`` Client DHCP-Range troisdorf1      frei
-``10.188.104.1``    ``10.188.107.255`` Client DHCP-Range troisodrf2      frei
-``10.188.108.1``    ``10.188.111.255`` Client DHCP-Range troisdorf3      frei
-``10.188.112.1``    ``10.188.115.255`` Client DHCP-Range troisdorf4      fre
-``10.188.116.1``    ``10.188.119.255`` Client DHCP-Range troisodrf5      in Betrieb
-``10.188.120.1``    ``10.188.124.255`` Client DHCP-Range troisdorf6      in Betrieb
-``10.188.125.1``    ``10.188.128.255`` Client DHCP-Range troisdorf7      frei
-``10.188.255.0/24`` ``10.188.255.255`` Gateway IPs       fix             Geblockt
-=================== ================== ================= =============== ===========
-
-NEU:
 
 Wir teilen das /16 in 8 /19 Netze ein.
 
