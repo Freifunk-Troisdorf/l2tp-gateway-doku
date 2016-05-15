@@ -23,18 +23,7 @@ Konfiguration
 
    configuration/basics
    configuration/supernodes
-   configuration/policyrouting
-   configuration/daemons/ddi
-   configuration/daemons/alfred
    configuration/internetexit
-
-Betrieb
--------
-
-.. toctree::
-   :maxdepth: 2
-
-   operations/scripts
 
 Mitwirken
 ---------
