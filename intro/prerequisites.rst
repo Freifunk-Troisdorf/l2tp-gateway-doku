@@ -16,17 +16,7 @@ Betrieb und Zugang
 
 Unsere Server werden momentan von 2 Personen Privat betriben. In unserem Setup ist immer nur 1 Server Aktiver Supernode, um unter anderem den Inter Gateway Traffic zu sparen. Dies funktioniert mit L2TP sehr gut, da die vorhandene Performance mit 1 Server ausreichend ist.
 
-Wir installieren unsere Gateways per Ansible, was uns ein Identisches Setup per Server ermöglicht und uns neue Gateways innerhalb weniger Minuten ausrollen lässt. Die Ansible Config findet Ihr hier: [LINK EINFÜGEN]
-
-Schema
-------
-
-Wie unser Netz aufgebaut ist seht ihr am einfachsten an dieser Darstellung:
-
-.. image:: fftdf-gw-schema.png
-    :alt: Gateway - schematische Darstellung
-    :scale: 85%
-    :align: center
+Wir installieren unsere Gateways per Ansible, was uns ein Identisches Setup per Server ermöglicht und uns neue Gateways innerhalb weniger Minuten ausrollen lässt. Die Ansible Config findet Ihr hier: https://github.com/Freifunk-Troisdorf/ansible.fftdf.supernode
 
 Funktionen & dafür benötigte Software
 -------------------------------------
@@ -78,10 +68,7 @@ Hierfür wird **isc-dhcp-server** genutzt. Für das vorbereitende Ausrollen von 
 Die Verbindung ins Internet wird über den Freifunk Rheinland e.V. realisiert. Wir verbinden uns hierzu per **GRE** in das Backbone des FFRL und bekommen von hier auch Public IPv4 und IPv6 Adressen.
 
 .. seealso::
-    - :ref:`packages`
     - :ref:`interfaces`
-    - :ref:`routing_tables`
-    - :ref:`policyrouting`
     - :ref:`internetexit`
 
 Datenschutz auf dem Gateway
