@@ -24,8 +24,8 @@ Unser großes ``10.188.0.0/16`` (mit 65536 Adressen) teilen wir uns ein wenig ei
 
 Wir teilen das /16 in 8 /19 Netze ein.
 
-Sub-Domäne 1 - Troisdorf
-------------------------
+Hood - Troisdorf (Troisdorf4)
+-----------------------------
 
 IPv4: ``10.188.0.0/19``
 
@@ -38,10 +38,10 @@ Netz                (bis)              Verwendung        verteilt durch  status
 ``10.188.24.0/21``  ``10.188.31.255``  frei                              frei
 =================== ================== ================= =============== ===========
 
-IPv6: ``2a03:2260:121:0001::/64`` wird per Radvd announced
+IPv6: ``2a03:2260:121:1::/64`` wird per Radvd announced
 
-Sub-Domäne 2 - Troisdorf City
------------------------------
+Hood - Troisdorf City (Troisdorf5)
+----------------------------------
 
 IPv4: ``10.188.32.0/19``
 
@@ -54,10 +54,10 @@ Netz                (bis)              Verwendung        verteilt durch  status
 ``10.188.56.0/18``  ``10.188.63.255``  Netz                              frei
 =================== ================== ================= =============== ===========
 
-IPv6: ``2a03:2260:121:0002::/64`` wird per Radvd announced
+IPv6: ``2a03:2260:121:2::/64`` wird per Radvd announced
 
-Sub-Domäne 3 - Flüchtlinge
---------------------------
+Hood - Flüchtlinge (Troisdorf6)
+-------------------------------
 
 IPv4: ``10.188.64.0/19``
 
@@ -70,10 +70,10 @@ Netz                (bis)              Verwendung        verteilt durch  status
 ``10.188.88.0/18``  ``10.188.95.255``  Client DHCP-Range                 frei
 =================== ================== ================= =============== ===========
 
-IPv6: ``2a03:2260:121:0003::/64`` wird per Radvd announced
+IPv6: ``2a03:2260:121:3::/64`` wird per Radvd announced
 
-Subdomäne 4 - Reserve
----------------------
+Hood - Reserve (Troisdorf7)
+---------------------------
 
 IPv4: ``10.188.96.0/19
 
@@ -86,7 +86,7 @@ Netz                (bis)              Verwendung        verteilt durch  status
 ``10.188.120.0/18`` ``10.188.127.255`` Client DHCP-Range                 frei
 =================== ================== ================= =============== ===========
 
-IPv6: ``2a03:2260:121:0004::/64`` wird per Radvd announced
+IPv6: ``2a03:2260:121:4::/64`` wird per Radvd announced
 
 IPv6
 ----
