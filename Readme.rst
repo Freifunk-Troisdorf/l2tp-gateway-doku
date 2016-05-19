@@ -1,4 +1,4 @@
 Beschreibung
 ------------
 
-TBD
+http://l2tp-gateway-doku.readthedocs.io/
