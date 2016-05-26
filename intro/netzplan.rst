@@ -28,6 +28,8 @@ Hood - Troisdorf (Troisdorf4)
 -----------------------------
 
 IPv4: ``10.188.0.0/19``
+Nextnode: ``10.188.0.1``
+Interconnect Router: ``10.188.0.2``
 
 =================== ================== ================= =============== ===========
 Netz                (bis)              Verwendung        verteilt durch  status
@@ -44,6 +46,8 @@ Hood - Troisdorf City (Troisdorf5)
 ----------------------------------
 
 IPv4: ``10.188.32.0/19``
+Nextnode: ``10.188.32.1``
+Interconnect Router: ``10.188.32.2``
 
 =================== ================== ================= =============== ===========
 Netz                (bis)              Verwendung        verteilt durch  status
@@ -60,6 +64,8 @@ Hood - Flüchtlinge (Troisdorf6)
 -------------------------------
 
 IPv4: ``10.188.64.0/19``
+Nextnode: ``10.188.64.1``
+Interconnect Router: ``10.188.64.2``
 
 =================== ================== ================= =============== ===========
 Netz                (bis)              Verwendung        verteilt durch  status
@@ -76,6 +82,8 @@ Hood - Reserve (Troisdorf7)
 ---------------------------
 
 IPv4: ``10.188.96.0/19
+Nextnode: ``10.188.96.1``
+Interconnect Router: ``10.188.96.2``
 
 =================== ================== ================= =============== ===========
 Netz                (bis)              Verwendung        verteilt durch  status
@@ -100,13 +108,7 @@ IPv6 Subnetze haben immer eine Prefix-Länge von *64 Bit*. Durch das /48 Subnetz
 Interface Bezeichnung
 ---------------------
 
-Wir vergeben unsere Interface-Bezeichnungen einheitlich!
-
-+-----------+------+-----------------------------+--------------+-------------------+---------------+
-|           | eth0 | Mesh - Bridge (Nodes)       | B.A.T.M.A.N  | Inter Gateway VPN | Exit VPN      |  
-+-----------+------+-----------------------------+--------------+-------------------+---------------+
-|           |      | br-[SUB Name tdf, inn, flu] | bat[SUB NAME]| l2tp-*            | gre-bb-*      |
-+-----------+------+-----------------------------+--------------+-------------------+---------------+ 
+TBD
 
 Namenskonvention
 ----------------
@@ -126,7 +128,19 @@ Wir nutzen dazu die jeweils niedrigsten Adressen
 
 * Troisdorf:
     * IPv4: ``10.188.0.1``
-    * IPv6: ``2a03:2260:121::1``
+    * IPv6: ``2a03:2260:121:1::1``
+
+* Innenstadt:
+    * IPv4: ``10.188.32.1``
+    * IPv6: ``2a03:2260:121:2::1``
+
+* Flüchtlinge:
+    * IPv4: ``10.188.64.1``
+    * IPv6: ``2a03:2260:121:3::1``
+
+* Reserve:
+    * IPv4: ``10.188.96.1``
+    * IPv6: ``2a03:2260:121:4::1``
 
     ..
 
