@@ -81,7 +81,7 @@ IPv6: ``2a03:2260:121:3::/64`` wird per Radvd announced
 Hood - Reserve (Troisdorf7)
 ---------------------------
 
-IPv4: ``10.188.96.0/19
+IPv4: ``10.188.96.0/19``
 Nextnode: ``10.188.96.1``
 Interconnect Router: ``10.188.96.2``
 
