@@ -30,6 +30,7 @@ Hood - Troisdorf (Troisdorf4)
 IPv4: ``10.188.0.0/19``
 Nextnode: ``10.188.0.1``
 Interconnect Router: ``10.188.0.2``
+Gateway: ``10.188.0.4``
 
 =================== ================== ================= =============== ===========
 Netz                (bis)              Verwendung        verteilt durch  status
@@ -48,6 +49,7 @@ Hood - Troisdorf City (Troisdorf5)
 IPv4: ``10.188.32.0/19``
 Nextnode: ``10.188.32.1``
 Interconnect Router: ``10.188.32.2``
+Gateway: ``10.188.32.5``
 
 =================== ================== ================= =============== ===========
 Netz                (bis)              Verwendung        verteilt durch  status
@@ -66,6 +68,7 @@ Hood - Flüchtlinge (Troisdorf6)
 IPv4: ``10.188.64.0/19``
 Nextnode: ``10.188.64.1``
 Interconnect Router: ``10.188.64.2``
+Gateway: ``10.188.64.6``
 
 =================== ================== ================= =============== ===========
 Netz                (bis)              Verwendung        verteilt durch  status
@@ -84,6 +87,7 @@ Hood - Reserve (Troisdorf7)
 IPv4: ``10.188.96.0/19``
 Nextnode: ``10.188.96.1``
 Interconnect Router: ``10.188.96.2``
+Gateway: ``10.188.96.7``
 
 =================== ================== ================= =============== ===========
 Netz                (bis)              Verwendung        verteilt durch  status
