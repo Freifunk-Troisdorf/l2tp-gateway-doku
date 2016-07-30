@@ -54,7 +54,7 @@ Netz                (bis)              Verwendung        verteilt durch  status
 ``10.188.24.0/21``  ``10.188.31.255``  frei              -               frei
 =================== ================== ================= =============== ===========
 
-IPv6: ``2a03:2260:121:0001::/64`` wird per Radvd announced
+IPv6: ``2a03:2260:121:4000::/64`` wird per Radvd announced
 
 Sub-Domäne 2 - Troisdorf City
 IPv4: ``10.188.32.0/19``
@@ -68,7 +68,7 @@ Netz                (bis)              Verwendung        verteilt durch  status
 ``10.188.56.0/18``  ``10.188.63.255``  Netz              -               frei
 =================== ================== ================= =============== ===========
 
-IPv6: ``2a03:2260:121:0002::/64`` wird per Radvd announced
+IPv6: ``2a03:2260:121:5000::/64`` wird per Radvd announced
 
 Sub-Domäne 3 - Flüchtlinge
 IPv4: ``10.188.64.0/19``
@@ -82,9 +82,9 @@ Netz                (bis)              Verwendung        verteilt durch  status
 ``10.188.88.0/18``  ``10.188.95.255``  Client DHCP-Range -               frei
 =================== ================== ================= =============== ===========
 
-IPv6: ``2a03:2260:121:0003::/64`` wird per Radvd announced
+IPv6: ``2a03:2260:121:6000::/64`` wird per Radvd announced
 
-Subdomäne 4 - Reserve
+Subdomäne 4 - Events
 IPv4: ``10.188.96.0/19
 
 =================== ================== ================= =============== ===========
@@ -96,7 +96,7 @@ Netz                (bis)              Verwendung        verteilt durch  status
 ``10.188.120.0/18`` ``10.188.127.255`` Client DHCP-Range -               frei
 =================== ================== ================= =============== ===========
 
-IPv6: ``2a03:2260:121:0004::/64`` wird per Radvd announced
+IPv6: ``2a03:2260:121:7000::/64`` wird per Radvd announced
 
 IPv6
 ----
@@ -177,10 +177,10 @@ Beispiel
 Gateway: **troisdorf5** - Nummer: **5**
 
 =========== ================================= 
-troisdorf5  Mainz                             
+troisdorf5                               
 =========== ================================= 
 IPv4        ``10.188.255.5``                    
-IPv6        ``2a03:2260:121::255:5``     
+IPv6        ``2a03:2260:121:5000::5``     
 MAC         ``a2:8c:ae:6f:f6:05``             
 DNS1        ``troisdorf5.freifunk-troisdorf.de``  
 DNS2        ``5.fftdf.de``          
