@@ -34,6 +34,8 @@ v1.0.5
 v1.0.7
 ------
 
-.. seealso:: `Github site.conf <https://github.com/Freifunk-Troisdorf/site/>`_
+.. seealso:: `Github site.conf TDF <https://github.com/Freifunk-Troisdorf/site/releases/tag/v1.0.7-tdf>`_
+`Github site.conf INN <https://github.com/Freifunk-Troisdorf/site/releases/tag/v1.0.7-inn>`_
+`Github site.conf FLU <https://github.com/Freifunk-Troisdorf/site/releases/tag/v1.0.7-flu>`_
 
 - Fehlerbehebungen im Reboot und Wifi Restart Script
