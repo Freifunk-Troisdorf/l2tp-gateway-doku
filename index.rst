@@ -22,8 +22,27 @@ Konfiguration
    :maxdepth: 2
 
    configuration/basics
-   configuration/supernodes
+   configuration/interfaces
+   configuration/policyrouting
+   configuration/daemons/ddi
+   configuration/daemons/alfred
    configuration/internetexit
+
+Betrieb
+-------
+
+.. toctree::
+   :maxdepth: 2
+
+   operations/scripts
+
+Firmware
+--------
+
+.. toctree::
+   :maxdepth: 2
+   
+   firmware/releases
 
 Mitwirken
 ---------
