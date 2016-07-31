@@ -36,6 +36,14 @@ Betrieb
 
    operations/scripts
 
+Firmware
+--------
+
+.. toctree::
+   :maxdepth: 2
+   
+   firmware/releases
+
 Mitwirken
 ---------
 
