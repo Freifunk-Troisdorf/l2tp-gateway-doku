@@ -34,3 +34,10 @@ v1.0.7
 .. seealso:: `Github site.conf <https://github.com/Freifunk-Troisdorf/site/>`_
 
 - Fehlerbehebungen im Reboot und Wifi Restart Script
+
+v1.0.8
+======
+
+.. seealso:: `Github site.conf <https://github.com/Freifunk-Troisdorf/site/>`_
+
+- Update auf Gluon Master wegen Wifi Problemen
