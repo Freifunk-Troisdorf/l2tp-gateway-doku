@@ -60,3 +60,10 @@ TP-Link has started providing US- and EU-specific firmwares for the Archer C7 v2
 
 - Added Wifi-Restart Script 
 .. seealso:: `Github <https://github.com/Freifunk-Troisdorf/packages/blob/v2016.1/netwatch/files/lib/tro/netwatch/wifi-restart.sh>`_
+
+v1.1.3
+======
+
+- Added Nightswitch Script to turn off the Client Wifi between 22-06.
+- Added Reboot and Wifi Restart Scripts
+
