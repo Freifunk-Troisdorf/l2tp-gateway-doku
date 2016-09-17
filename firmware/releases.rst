@@ -65,5 +65,8 @@ v1.1.3
 ======
 
 - Added Nightswitch Script to turn off the Client Wifi between 22-06.
+
+With the Setting "Node-Role" you can disable the Client Wifi on the Node between 22 and 6h. Set the Node Roke in the Config Mode to "nightswitch" to activate this feature.
+
 - Added Reboot and Wifi Restart Scripts
 
