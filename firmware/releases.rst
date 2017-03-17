@@ -100,7 +100,7 @@ Bugfixes
   have been reverted. While is it still not perfectly stable, is should be at least
   as good as (and probably better than) the v2016.1.x release series.
   
-  v1.2.6
+v1.2.6
 ======
 
 - Gluon 2016.2.4 Release
