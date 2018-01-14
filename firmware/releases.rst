@@ -35,8 +35,14 @@ v1.0.7
 
 - Fehlerbehebungen im Reboot und Wifi Restart Script
 
-v1.0.8
+v2017.1.4-1
 ======
+
+.. seealso:: `Github site.conf <https://github.com/Freifunk-Troisdorf/site/>`_
+
+- Täglicher reboot in Wöchentlichen Reboot geändert
+- Täglicher reboot wenn keine Clients auf dem Node sind um 4 Uhr
+- ATK10 Images werden wieder gebaut
 
 .. seealso:: `Github site.conf <https://github.com/Freifunk-Troisdorf/site/>`_
 
