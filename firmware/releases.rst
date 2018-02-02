@@ -60,8 +60,6 @@ v2017.1.3-1
 v2017.1.4-1
 ======
 
-.. seealso:: `Github site.conf <https://github.com/Freifunk-Troisdorf/site/>`_
-
 - Täglicher reboot in Wöchentlichen Reboot geändert
 - Täglicher reboot wenn keine Clients auf dem Node sind um 4 Uhr
 - ATK10 Images werden wieder gebaut
@@ -70,3 +68,14 @@ v2017.1.4-1
 .. seealso:: `Github site.conf <https://github.com/Freifunk-Troisdorf/site/>`_
 
 - Update auf Gluon Master wegen Wifi Problemen
+
+v2017.1.5-1
+======
+
+- Update auf Gluon 2017.1.5
+- Hardware Support für TP-Link TL-WR1043N v5, Ubiquiti EdgeRouter-X, Ubiquiti EdgeRouter-X SFP
+
+.. seealso:: `Github site.conf <https://github.com/Freifunk-Troisdorf/site/>`_
+
+.. seealso:: `Gluon Release Notes <http://gluon.readthedocs.io/en/v2017.1.x/releases/v2017.1.5.html>`_
+
