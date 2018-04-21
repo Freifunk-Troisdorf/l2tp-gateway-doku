@@ -79,3 +79,12 @@ v2017.1.5-1
 
 .. seealso:: `Gluon Release Notes <http://gluon.readthedocs.io/en/v2017.1.x/releases/v2017.1.5.html>`_
 
+v2017.1.6-1
+======
+
+- Update auf Gluon 2017.1.6
+
+.. seealso:: `Github site.conf <https://github.com/Freifunk-Troisdorf/site/>`_
+
+.. seealso:: `Gluon Release Notes <http://gluon.readthedocs.io/en/v2017.1.x/releases/v2017.1.6.html>`_
+
