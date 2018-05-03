@@ -84,7 +84,19 @@ v2017.1.6-1
 
 - Update auf Gluon 2017.1.6
 
+Rollout wegen Bug abgebrochen
+
 .. seealso:: `Github site.conf <https://github.com/Freifunk-Troisdorf/site/>`_
 
 .. seealso:: `Gluon Release Notes <http://gluon.readthedocs.io/en/v2017.1.x/releases/v2017.1.6.html>`_
+
+v2017.1.7-1
+======
+
+- Update auf Gluon 2017.1.7
+- Bugfix für Bootloader-Bug in 2017.1.6-1
+
+.. seealso:: `Github site.conf <https://github.com/Freifunk-Troisdorf/site/>`_
+
+.. seealso:: `Gluon Release Notes <http://gluon.readthedocs.io/en/v2017.1.x/releases/v2017.1.7.html>`_
 
