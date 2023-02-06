@@ -85,7 +85,7 @@ Netz                (bis)              Verwendung        verteilt durch  status
 IPv6: ``2a03:2260:121:6000::/64`` wird per Radvd announced
 
 Subdomäne 4 - Events
-IPv4: ``10.188.96.0/19
+IPv4: ``10.188.96.0/19``
 
 =================== ================== ================= =============== ===========
 Netz                (bis)              Verwendung        verteilt durch  status
